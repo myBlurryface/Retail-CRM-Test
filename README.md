@@ -69,8 +69,8 @@ Retail-CRM-Test/
    - Флаг `--build` гарантирует пересборку образа с последними изменениями.
 
 3. **Доступ к API**:
-   Swagger UI: Документация API будет доступна по адресу http://127.0.0.1:8000/api/retailcrm/docs/.
-   OpenAPI-схема: JSON-схема API будет доступна по адресу http://127.0.0.1:8000/api/retailcrm/openapi.json.
+   - Swagger UI: Документация API будет доступна по адресу http://127.0.0.1:8000/api/retailcrm/docs/.
+   - OpenAPI-схема: JSON-схема API будет доступна по адресу http://127.0.0.1:8000/api/retailcrm/openapi.json.
    - Пример вызова эндпоинта для создания клиента:
      ```bash
      curl -X POST "http://localhost:8000/api/clients" \
