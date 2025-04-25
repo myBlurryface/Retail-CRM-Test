@@ -69,7 +69,8 @@ Retail-CRM-Test/
    - Флаг `--build` гарантирует пересборку образа с последними изменениями.
 
 3. **Доступ к API**:
-   - Откройте `http://localhost:8000/docs` в браузере для просмотра документации API в Swagger UI.
+   Swagger UI: Документация API будет доступна по адресу http://127.0.0.1:8000/api/retailcrm/docs/.
+   OpenAPI-схема: JSON-схема API будет доступна по адресу http://127.0.0.1:8000/api/retailcrm/openapi.json.
    - Пример вызова эндпоинта для создания клиента:
      ```bash
      curl -X POST "http://localhost:8000/api/clients" \
@@ -86,12 +87,12 @@ Retail-CRM-Test/
      }
      ```
 
-4. **Просмотр логов**:
+5. **Просмотр логов**:
    ```bash
    docker-compose logs
    ```
 
-5. **Остановка приложения**:
+6. **Остановка приложения**:
    ```bash
    docker-compose down
    ```
